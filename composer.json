@@ -1,0 +1,21 @@
+{
+    "name": "edounar/phpspec-json-matcher",
+    "type": "library",
+    "description": "PhpSpec matcher 'shouldReturnJson'",
+    "keywords": ["phpspec", "json"],
+    "homepage": "https://github.com/edounar/phpspec-json-matcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugene Dounar",
+            "email": "eugene.dounar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.6",
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { "EDounar\\PhpSpec\\JsonMatcher\\": "src/" }
+    }
+}
